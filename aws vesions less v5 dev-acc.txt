@@ -1,0 +1,193 @@
+us-east-2
+exploratory
+trm-vcms-terragrunt\dev\us-east-2\exploratory
+https://github.com/vertexinc/trm-infra-tools/blob/main/cross_account_sagemaker_policy/versions.tf
+Terraform 1.1, aws 4.0
+
+trm-vcms-terragrunt\dev\us-east-2\exploratory\kms
+https://github.com/vertexinc/trm-infra-kms/blob/main/versions.tf
+Terraform 1.1, aws 4.7
+
+trm-vcms-terragrunt\dev\us-east-2\exploratory\sagemaker
+https://github.com/vertexinc/trm-infra-sagemaker/blob/main/versions.tf
+Terraform 1.0, aws 4.17
+
+trm-vcms-terragrunt\dev\us-east-2\exploratory\vpc
+https://github.com/vertexinc/trm-infra-vpc/blob/main/versions.tf
+Terraform 1.0, aws 4.17
+
+global
+trm-vcms-terragrunt\dev\us-east-2\global\cloudwatch-log-group
+https://github.com/vertexinc/trm-infra-cloudwatch/blob/main/modules/cw_log_group/versions.tf
+Terraform 1.0, aws 4.17
+
+trm-vcms-terragrunt\dev\us-east-2\global\eks-blue\gloo
+https://github.com/vertexinc/vtx-k8s-modules-gloo-edge/blob/main/versions.tf
+Terraform 1.1, aws 4.17 helm = 2.6 kubernetes =  2.12
+
+trm-vcms-terragrunt\dev\us-east-2\global\eks-green\gloo
+https://github.com/vertexinc/vtx-k8s-modules-gloo-edge/blob/main/versions.tf
+Terraform 1.1, aws 4.17  helm = 2.16
+
+trm-vcms-terragrunt\dev\us-east-2\global\eventbridge
+https://github.com/vertexinc/trm-infra-cloudwatch/blob/main/modules/eventbridge/versions.tf
+Terraform 1.0, aws 4.52
+
+trm-vcms-terragrunt\dev\us-east-2\global\gloo_alb_to_nlb
+https://github.com/vertexinc/vtx-k8s-modules-gloo-edge/blob/main/modules/alb-to-nlb/versions.tf
+Terraform 1.1, aws 4.17
+
+trm-vcms-terragrunt\dev\us-east-2\global\remote_state_backet_tags
+https://github.com/vertexinc/trm-infra-tools/blob/main/s3_tags_manager/version.tf
+Terraform 1.1, aws 4.17
+
+trm-vcms-terragrunt\dev\us-east-2\global\route53
+https://github.com/vertexinc/trm-infra-route53/blob/main/versions.tf
+Terraform 1.0, aws 4.0
+
+trm-vcms-terragrunt\dev\us-east-2\global\security-group
+trm-vcms-terragrunt\dev\us-east-2\global\security-group\efs-csi-driver
+trm-vcms-terragrunt\dev\us-east-2\global\security-group\lambda
+https://github.com/vertexinc/trm-infra-security-group/blob/main/versions.tf
+Terraform 1.0, aws 4.17
+
+trm-vcms-terragrunt\dev\us-east-2\global\vpc
+https://github.com/vertexinc/trm-infra-vpc/blob/main/versions.tf
+Terraform 1.0, aws 4.17
+
+ml
+trm-vcms-terragrunt\dev\us-east-2\ml\sqs\model-package-state-change-dlq
+https://github.com/vertexinc/trm-infra-sqs/blob/main/versions.tf
+Terraform 1.0, aws 4.0.0
+
+trm-vcms-terragrunt\dev\us-east-2\ml\ssm\parameter-store
+https://github.com/vertexinc/trm-infra-parameter-store/blob/main/versions.tf
+Terraform 1.0, aws 4.0.0
+
+sandbox
+trm-vcms-terragrunt\dev\us-east-2\sandbox
+trm-vcms-terragrunt\dev\us-east-2\sandbox\api_gw_rest
+https://github.com/vertexinc/trm-infra-api-gateway/blob/main/modules/rest/versions.tf
+Terraform 1.0, aws 4.17
+
+trm-vcms-terragrunt\dev\us-east-2\sandbox\cloudfront
+https://github.com/vertexinc/trm-infra-cloudfront/blob/main/versions.tf
+Terraform 1.0, aws 4.17
+
+trm-vcms-terragrunt\dev\us-east-2\sandbox\cloudwatch\events\jira-sync-lambda-scheduler
+https://github.com/vertexinc/trm-infra-cloudwatch/blob/main/modules/eventbridge_scheduler/versions.tf
+Terraform 1.0, aws 4.52
+
+trm-vcms-terragrunt\dev\us-east-2\sandbox\efs\airflow
+https://github.com/vertexinc/trm-infra-efs/blob/main/versions.tf
+Terraform 1.1, aws 4.34
+
+trm-vcms-terragrunt\dev\us-east-2\sandbox\lambda
+trm-vcms-terragrunt\dev\us-east-2\sandbox\lambda\dms-restart-lambda
+trm-vcms-terragrunt\dev\us-east-2\sandbox\lambda\e2e-lambda
+trm-vcms-terragrunt\dev\us-east-2\sandbox\lambda\ingestion
+trm-vcms-terragrunt\dev\us-east-2\sandbox\lambda\jira-sync-lambda
+trm-vcms-terragrunt\dev\us-east-2\sandbox\lambda\s3-download
+https://github.com/vertexinc/trm-infra-lambda/blob/main/versions.tf
+Terraform 1.1, aws 4.34
+
+trm-vcms-terragrunt\dev\us-east-2\sandbox\route53
+trm-vcms-terragrunt\dev\us-east-2\sandbox\route53\airflow
+trm-vcms-terragrunt\dev\us-east-2\sandbox\route53\frontend
+https://github.com/vertexinc/trm-infra-route53/blob/main/versions.tf
+Terraform 1.0, aws 4.0
+
+trm-vcms-terragrunt\dev\us-east-2\sandbox\s3-objects\storage
+https://github.com/vertexinc/trm-infra-s3-object/blob/main/versions.tf
+Terraform 1.0, aws 4.17
+
+trm-vcms-terragrunt\dev\us-east-2\sandbox\sns
+trm-vcms-terragrunt\dev\us-east-2\sandbox\sns\dms-email-topic
+trm-vcms-terragrunt\dev\us-east-2\sandbox\sns\dms-lambda-topic
+https://github.com/vertexinc/trm-infra-sns/blob/main/modules/sns-topics/versions.tf
+Terraform 1.0, aws 4.0
+
+trm-vcms-terragrunt\dev\us-east-2\sandbox\sns
+trm-vcms-terragrunt\dev\us-east-2\sandbox\sns\dms-subscription
+https://github.com/vertexinc/trm-infra-sns/blob/main/modules/sns-subscriptions/versions.tf
+Terraform 1.0, aws 4.0
+
+trm-vcms-terragrunt\dev\us-east-2\sandbox\sqs
+attachments-scanning
+attachments-uploaded
+attachments-uploaded-dlq
+crawler-report-queue
+email-landing-input
+kraken-crawl-job
+kraken-data-import-job
+kraken-direct-job
+kraken-failed-job
+kraken-parse-job
+kraken-retry-job
+virus-scanning
+virus-scanning-dlq
+web-crawler-tasks
+https://github.com/vertexinc/trm-infra-sqs/blob/main/versions.tf
+Terraform 1.0, aws 4.0
+
+trm-vcms-terragrunt\dev\us-east-2\sandbox\ssm\parameter-store
+https://github.com/vertexinc/trm-infra-parameter-store/blob/main/versions.tf
+Terraform 1.0, aws 4.0
+
+Stable
+trm-vcms-terragrunt\dev\us-east-2\stable\api_gw_rest
+https://github.com/vertexinc/trm-infra-api-gateway/blob/main/modules/rest/versions.tf
+Terraform 1.0, aws 4.17
+
+trm-vcms-terragrunt\dev\us-east-2\stable\cloudfront
+https://github.com/vertexinc/trm-infra-cloudfront/blob/main/versions.tf
+Terraform 1.0, aws 4.17
+
+trm-vcms-terragrunt\dev\us-east-2\stable\cloudwatch\events\jira-sync-lambda-scheduler
+https://github.com/vertexinc/trm-infra-cloudwatch/blob/main/modules/eventbridge_scheduler/versions.tf
+Terraform 1.0, aws 4.52
+
+trm-vcms-terragrunt\dev\us-east-2\stable\efs\airflow
+https://github.com/vertexinc/trm-infra-efs/blob/main/versions.tf
+Terraform 1.1, aws 4.34
+
+trm-vcms-terragrunt\dev\us-east-2\stable\lambda
+trm-vcms-terragrunt\dev\us-east-2\stable\lambda\e2e-lambda
+trm-vcms-terragrunt\dev\us-east-2\stable\lambda\ingestion
+trm-vcms-terragrunt\dev\us-east-2\stable\lambda\jira-sync-lambda
+trm-vcms-terragrunt\dev\us-east-2\stable\lambda\s3-download
+https://github.com/vertexinc/trm-infra-lambda/blob/main/versions.tf
+Terraform 1.1, aws 4.34
+
+trm-vcms-terragrunt\dev\us-east-2\stable\route53
+trm-vcms-terragrunt\dev\us-east-2\stable\route53\airflow
+trm-vcms-terragrunt\dev\us-east-2\stable\route53\frontend
+trm-vcms-terragrunt\dev\us-east-2\stable\route53\streamlit
+https://github.com/vertexinc/trm-infra-route53/blob/main/versions.tf
+Terraform 1.0, aws 4.0
+
+trm-vcms-terragrunt\dev\us-east-2\stable\s3-objects\storage
+https://github.com/vertexinc/trm-infra-s3-object/blob/main/versions.tf
+Terraform 1.0, aws 4.17
+
+trm-vcms-terragrunt\dev\us-east-2\stable\sqs
+attachments-scanning
+attachments-uploaded
+attachments-uploaded-dlq
+crawler-report-queue
+email-landing-input
+kraken-crawl-job
+kraken-data-import-job
+kraken-direct-job
+kraken-failed-job
+kraken-parse-job
+kraken-retry-job
+virus-scanning
+virus-scanning-dlq
+web-crawler-tasks
+https://github.com/vertexinc/trm-infra-sqs/blob/main/versions.tf
+Terraform 1.0, aws 4.0
+
+trm-vcms-terragrunt\dev\us-east-2\stable\ssm\parameter-store
+https://github.com/vertexinc/trm-infra-parameter-store/blob/main/versions.tf
+Terraform 1.0, aws 4.0
